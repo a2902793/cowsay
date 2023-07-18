@@ -1,0 +1,29 @@
+Format: 1.8
+Date: Tue, 18 Jul 2023 18:19:13 +0000
+Source: cowsay
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 3.03+dfsg2-8ubuntu2
+Distribution: jammy
+Urgency: low
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: Li-Chung Yeng <a2902793@gmail.com>
+Changes:
+ cowsay (3.03+dfsg2-8ubuntu2) jammy; urgency=low
+ .
+   * Added testing.sh to package for take-home test from Canonical
+   * Previous version 3.03+dfsg2-8ubuntu1 exists on Launchpad as experiment,
+     bumping up version to 3.03+dfsg2-8ubuntu2
+Checksums-Sha1:
+ b612ebd9c9c8301f32d7f660fdaaac93d3b06540 1178 cowsay_3.03+dfsg2-8ubuntu2.dsc
+ 79f5c634af039e93a799f90f1b90c94ab7747ccf 13844 cowsay_3.03+dfsg2-8ubuntu2.debian.tar.xz
+ b777387f9b98df4df3aedd34adf15345a64e2395 5791 cowsay_3.03+dfsg2-8ubuntu2_source.buildinfo
+Checksums-Sha256:
+ e57cf565fae21e42a4e0d0da7a3a5810b32e139f41f184f0992d625a168cd0ad 1178 cowsay_3.03+dfsg2-8ubuntu2.dsc
+ 98cb99041da45e316b2e0b5f5828261178f5f7651d10797a58548ff0dfe48fae 13844 cowsay_3.03+dfsg2-8ubuntu2.debian.tar.xz
+ d726cf1f5e1674b62ec1c954f942b33e89dc1bbf59884a389885b7da5d1f5596 5791 cowsay_3.03+dfsg2-8ubuntu2_source.buildinfo
+Files:
+ 8738a85ee538953ea3ebdb7b9a1dfa32 1178 games optional cowsay_3.03+dfsg2-8ubuntu2.dsc
+ 29e5ef411fe64208f7066b93f527313e 13844 games optional cowsay_3.03+dfsg2-8ubuntu2.debian.tar.xz
+ 497adbd7fe87122759fafef8e910e3a9 5791 games optional cowsay_3.03+dfsg2-8ubuntu2_source.buildinfo
+Original-Maintainer: James McDonald <james@jamesmcdonald.com>

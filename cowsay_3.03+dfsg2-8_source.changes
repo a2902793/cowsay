@@ -1,0 +1,30 @@
+Format: 1.8
+Date: Mon, 11 May 2020 08:43:49 +0200
+Source: cowsay
+Built-For-Profiles: noudeb
+Architecture: source
+Version: 3.03+dfsg2-8
+Distribution: unstable
+Urgency: low
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Changed-By: James McDonald <james@jamesmcdonald.com>
+Changes:
+ cowsay (3.03+dfsg2-8) unstable; urgency=low
+ .
+   * Fix capitalization of man page title as per man-pages(7)
+   * Bump Standards-Version to 4.5.0
+   * Bump debhelper compat to 13
+   * Clear up various lintian errors
+Checksums-Sha1:
+ 14c4584b61a79346f34408001222733a41f8b264 1150 cowsay_3.03+dfsg2-8.dsc
+ c42a40b111cc43b70f227c09fcafae47563b8743 13720 cowsay_3.03+dfsg2-8.debian.tar.xz
+ b838dc47e05af79ebf33cc9e40a9206cbc99aeb3 5763 cowsay_3.03+dfsg2-8_source.buildinfo
+Checksums-Sha256:
+ 1ae8b8aaa2a08e9421760edd402c6a651daafb1444371fff7d12849eeb9ed63d 1150 cowsay_3.03+dfsg2-8.dsc
+ 5d6e55f7f87660d154a573a278e7aa19c304e653ba873c6c005659540f133877 13720 cowsay_3.03+dfsg2-8.debian.tar.xz
+ e997df2d21d664eb43bb1a98ca5e227e9b2efee75458e0b299b38225ed523b76 5763 cowsay_3.03+dfsg2-8_source.buildinfo
+Files:
+ 2a9d084a1cc925eea77cb551dd255a74 1150 games optional cowsay_3.03+dfsg2-8.dsc
+ 60e6723d5e76788b3adb00f629a369f8 13720 games optional cowsay_3.03+dfsg2-8.debian.tar.xz
+ c0024056c83716c3e74156f9ba642f8b 5763 games optional cowsay_3.03+dfsg2-8_source.buildinfo
+Original-Maintainer: James McDonald <james@jamesmcdonald.com>

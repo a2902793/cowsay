@@ -1,0 +1,25 @@
+ dpkg-buildpackage -us -uc -ui -S -d
+dpkg-buildpackage: info: source package cowsay
+dpkg-buildpackage: info: source version 3.03+dfsg2-8
+dpkg-buildpackage: info: source distribution unstable
+dpkg-buildpackage: info: source changed by James McDonald <james@jamesmcdonald.com>
+ dpkg-source --before-build .
+ debian/rules clean
+dh clean
+   dh_clean
+ dpkg-source -b .
+dpkg-source: info: using source format '3.0 (quilt)'
+dpkg-source: info: building cowsay using existing ./cowsay_3.03+dfsg2.orig.tar.gz
+dpkg-source: info: using patch list from debian/patches/series
+dpkg-source: info: building cowsay in cowsay_3.03+dfsg2-8.debian.tar.xz
+dpkg-source: info: building cowsay in cowsay_3.03+dfsg2-8.dsc
+ dpkg-genbuildinfo --build=source -O../cowsay_3.03+dfsg2-8_source.buildinfo
+ dpkg-genchanges --build=source -O../cowsay_3.03+dfsg2-8_source.changes
+dpkg-genchanges: info: not including original source code in upload
+ dpkg-source --after-build .
+dpkg-buildpackage: info: source-only, diff-only upload (original source NOT included)
+Now running lintian cowsay_3.03+dfsg2-8_source.changes ...
+E: cowsay changes: bad-distribution-in-changes-file unstable
+W: cowsay source: maintainer-script-lacks-debhelper-token [debian/postinst]
+W: cowsay source: spelling-error-in-rules-requires-root Rules-requires-root [debian/control:11]
+Finished running lintian.
